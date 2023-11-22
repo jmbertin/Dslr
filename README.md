@@ -1,5 +1,6 @@
 # DSLR
 This project includes a set of Python scripts designed to predict the Hogwarts house of students based on various features, analyze their performances in different subjects, and visualize the data.
+Logistic regression is a statistical method used for binary classification, which is the task of categorizing data into one of two distinct groups. It's particularly useful when the outcome you want to predict is categorical and binary (i.e., it has only two possible values, like 'yes' or 'no', 'true' or 'false', 'pass' or 'fail').
 
 ## Prerequisites
 

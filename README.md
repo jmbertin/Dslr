@@ -25,6 +25,7 @@ For easier use of the program, you can simply launch the menu:
 ````
 python3 main.py
 ````
+
 ![Menu](./screenshots/00-Menu.png)
 
 
@@ -35,6 +36,7 @@ python3 logtrain.py dataset_train.csv
 ````
 2. Follow the prompts to choose the gradient descent mode.
 3. The trained weights will be saved as weights.npy.
+   
 ![Training](./screenshots/01-Train.png)
 
 ### II - Predicting Hogwarts Houses
@@ -47,6 +49,7 @@ python3 logpredict.py dataset_test.csv weights.npy
 ````
 diff houses.csv dataset_truth.csv
 ````
+
 ![Predicting](./screenshots/02-Predict.png)
 
 **5 errors, on 400 tests -> 99% accuracy.**
@@ -57,6 +60,7 @@ Run histogram.py, describe.py, pairplot.py, or scatterplot.py with your dataset:
 python3 histogram.py dataset_train.csv
 ````
 Replace histogram.py with the desired script's name.
+
 ![Describe](./screenshots/03-Describe.png)
 ![Pair plot](./screenshots/04-PairPlots.png)
 ![Scatter plot](./screenshots/05-Scatter-Plot.png)

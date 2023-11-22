@@ -48,7 +48,8 @@ python3 logpredict.py dataset_test.csv weights.npy
 diff houses.csv dataset_truth.csv
 ````
 ![Predicting](./screenshots/02-Predict.png)
-**4 errors, on 400 tests -> 99% accuracy.**
+
+**5 errors, on 400 tests -> 99% accuracy.**
 
 ### III - Data Analysis and Visualization
 Run histogram.py, describe.py, pairplot.py, or scatterplot.py with your dataset:
